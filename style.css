@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 section{
+    width: 80%;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    width: 50%;
     margin: auto;
 }
 
